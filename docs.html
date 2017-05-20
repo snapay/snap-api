@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<!-- saved from url=(0129) -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="cmodelID" content="29638-6c255dca-c82e-9e3e-0089-b25aa127a021">
+
+      <meta name="description" content="The Postman Documenter generates and maintains beautiful, live documentation for your collections. Never worry about maintaining API documentation again.">
+    <meta name="generator" content="Postman Documenter">
+      <title>Snapay</title>
+    <link href="./resources/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./resources/bootstrap.min.css">
+    <link rel="stylesheet" href="./resources/prism-coy.css">
+    <link rel="stylesheet" href="./resources/prism-okaidia.css">
+    <link rel="stylesheet" type="text/css" href="./resources/importer.css">
+    <link rel="shortcut icon" href="https://documenter.getpostman.com/favicon.ico">
+
+
+      <meta property="og:title" content="Snapay">
+      <meta property="og:description" content="The Postman Documenter generates and maintains beautiful, live documentation for your collections. Never worry about maintaining API documentation again.">
+    <meta property="og:site_name" content="Postman Documenter">
+    <meta property="og:image" content="https://documenter.getpostman.com/docs-assets/images/logo-glyph.png" data-google-stars-image-width="512" data-google-stars-image-height="512">
+
+      <meta name="twitter:title" value="Snapay">
+      <meta name="twitter:description" value="The Postman Documenter generates and maintains beautiful, live documentation for your collections. Never worry about maintaining API documentation again.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" value="documenter.getpostman.com">
+    <meta name="twitter:image" content="https://documenter.getpostman.com/docs-assets/images/logo-glyph.png" data-google-stars-image-width="512" data-google-stars-image-height="512">
+  </head>
+
+  <body>
+
+    <div class="layout">
+
+  <div class="modal" id="rawBodyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <button type="button" class="close btn-circle" data-dismiss="modal" aria-label="Close">
+      <div>
+        <span aria-hidden="true">×</span>
+      </div>
+    </button>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid no-gutter" style="padding-top: 41px;">
+    <div class="row no-gutter">
+      <div class="col-xs-12 info no-gutter">
+        <div id="mobile-controls">
+            <label>User</label>
+            <div class="btn-group">
+              <button type="button" class="btn pm-btn pm-btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Rogerio Melfi <span class="pm-doc-sprite pm-doc-sprite-dropdown-caret"></span>
+              </button>
+              <ul class="dropdown-menu pull-right">
+                <li class="dropdown-menu-item"><a href="https://app.getpostman.com/dashboard/edit" target="_blank">Edit Profile</a></li>
+                <li class="dropdown-menu-item"><a href="https://app.getpostman.com/dashboard/team-plans" target="_blank">Plans &amp; Upgrades</a></li>
+                <li class="dropdown-menu-item"><a href="https://app.getpostman.com/pay/billing" target="_blank">Billing</a></li>
+                <li class="dropdown-menu-item"><a href="https://app.getpostman.com/web-signout">Sign Out</a></li>
+              </ul>
+            </div>
+
+          <label>Environment</label>
+            <div class="environment-dropdown dropdown">
+                <button class="btn pm-btn pm-btn-secondary hard--sides disabled" type="button">
+                  <div class="dropdown-button ellipsis" data-environment-id="0">No environment</div>
+                </button>
+            </div>
+
+            <label>Language</label>
+            <div class="language">
+              <div class="btn-group languages">
+                <button type="button" class="btn pm-btn pm-btn-secondary dropdown-toggle language-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="active-lang ellipsis">PHP</div>
+                  <span class="pm-doc-sprite pm-doc-sprite-dropdown-caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right language_dropdown">
+                  <li class="dropdown-menu-item" data-snippetname="shell:curl">cURL</li>
+                  <li class="dropdown-menu-item" data-snippetname="javascript:jquery">jQuery</li>
+                  <li class="dropdown-menu-item" data-snippetname="ruby:native">Ruby</li>
+                  <li class="dropdown-menu-item" data-snippetname="python:requests">Python Requests</li>
+                  <li class="dropdown-menu-item" data-snippetname="node:native">Node</li>
+                  <li class="dropdown-menu-item" data-snippetname="php:curl">PHP</li>
+                  <li class="dropdown-menu-item" data-snippetname="go:native">Go</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+        <div id="doc-body" class="">  <div class="row row-no-padding row-eq-height" id="intro">
+  <div class="col-md-6 col-xs-12 section">
+  <div class="api-information">
+    <div class="collection-name">
+      <p>Snapay</p>
+    </div>
+    <div class="collection-description"></div>
+  </div>
+</div>
+  <div class="col-md-6 col-xs-12 examples">
+    <div class="language hidden-xs hidden-sm">
+      <div class="language-heading">Language</div>
+      <div class="btn-group languages">
+        <button type="button" class="btn btn-default dropdown-toggle language-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="active-lang ellipsis">PHP</div>
+          <span class="pm-doc-sprite pm-doc-sprite-dropdown-caret"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right language_dropdown">
+          <li class="dropdown-menu-item" data-snippetname="shell:curl">cURL</li>
+          <li class="dropdown-menu-item" data-snippetname="javascript:jquery">jQuery</li>
+          <li class="dropdown-menu-item" data-snippetname="ruby:native">Ruby</li>
+          <li class="dropdown-menu-item" data-snippetname="python:requests">Python Requests</li>
+          <li class="dropdown-menu-item" data-snippetname="node:native">Node</li>
+          <li class="dropdown-menu-item" data-snippetname="php:curl">PHP</li>
+          <li class="dropdown-menu-item" data-snippetname="go:native">Go</li>
+        </ul>
+      </div>
+    </div>
+</div>
+</div>
+    <div class="row row-no-padding row-eq-height" id="11e7861e-e372-b512-5156-b1032b0dbd6f">
+  <div class="col-md-6 col-xs-12 section">
+  <div class="api-information">
+    <div class="heading">
+      <div class="name">
+        <span class="POST method">POST</span>
+        Cria novo Pagamento
+      </div>
+    </div>
+    <div class="url">http://snapay.com.br/payment/</div>
+    <div class="description"><p>Chamada novo Pagamento</p>
+</div>
+
+      <div class="headers">
+        <div class="headers-heading">HEADERS</div>
+          <hr>
+          <div class="param row">
+            <div class="name col-md-3">Content-Type</div>
+            <div class="value col-md-9">application/json</div>
+          </div>
+      </div>
+
+      <div class="request-body">
+        <div class="body-heading">BODY</div>
+          <hr>
+          <div class="raw-body code-snippet">
+            <pre class="body-block click-to-expand-wrapper is-snippet-wrapper language-javascript"><code class="body-block is-highlighted language-javascript"><span class="token punctuation">{</span>
+	<span class="token string">"amount"</span> <span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> 
+	<span class="token string">"card"</span> <span class="token punctuation">:</span> <span class="token string">"1234-1234-1234"</span><span class="token punctuation">,</span> 
+	<span class="token string">"password"</span> <span class="token punctuation">:</span> <span class="token string">"1234"</span>
+	
+<span class="token punctuation">}</span></code></pre>
+          </div>
+
+      </div>
+
+  </div>
+  <br><br>
+</div>
+
+
+  <div class="col-md-6 col-xs-12 examples">
+    <div class="sample-request">
+      <div class="heading"><span>Sample Request</span></div>
+
+      <div class="responses-index">
+          <div class="response-name"><span>Cria novo Pagamento</span></div>
+      </div>
+    </div>
+
+    <div class="request code-snippet">
+          <div class="formatted-requests" data-lang="cURL" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#cURL_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="cURL_0_11e7861e-e372-b512-5156-b1032b0dbd6f">curl --request POST \
+  --url http://snapay.com.br/payment/ \
+  --header 'content-type: application/json' \
+  --data '{
+	"amount" : 1, 
+	"card" : "1234-1234-1234", 
+	"password" : "1234"
+	
+}'</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#cURL_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="jQuery" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#jQuery_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="jQuery_0_11e7861e-e372-b512-5156-b1032b0dbd6f">var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://snapay.com.br/payment/",
+  "method": "POST",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "processData": false,
+  "data": "{\n\t\"amount\" : 1, \n\t\"card\" : \"1234-1234-1234\", \n\t\"password\" : \"1234\"\n\t\n}"
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#jQuery_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Ruby" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Ruby_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Ruby_0_11e7861e-e372-b512-5156-b1032b0dbd6f">require 'uri'
+require 'net/http'
+
+url = URI("http://snapay.com.br/payment/")
+
+http = Net::HTTP.new(url.host, url.port)
+
+request = Net::HTTP::Post.new(url)
+request["content-type"] = 'application/json'
+request.body = "{\n\t\"amount\" : 1, \n\t\"card\" : \"1234-1234-1234\", \n\t\"password\" : \"1234\"\n\t\n}"
+
+response = http.request(request)
+puts response.read_body</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Ruby_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Python Requests" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PythonRequests_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="PythonRequests_0_11e7861e-e372-b512-5156-b1032b0dbd6f">import requests
+
+url = "http://snapay.com.br/payment/"
+
+payload = "{\n\t\"amount\" : 1, \n\t\"card\" : \"1234-1234-1234\", \n\t\"password\" : \"1234\"\n\t\n}"
+headers = {'content-type': 'application/json'}
+
+response = requests.request("POST", url, data=payload, headers=headers)
+
+print(response.text)</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PythonRequests_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Node" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Node_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Node_0_11e7861e-e372-b512-5156-b1032b0dbd6f">var http = require("http");
+
+var options = {
+  "method": "POST",
+  "hostname": "snapay.com.br",
+  "port": null,
+  "path": "/payment/",
+  "headers": {
+    "content-type": "application/json"
+  }
+};
+
+var req = http.request(options, function (res) {
+  var chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function () {
+    var body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+});
+
+req.write(JSON.stringify({ amount: 1, card: '1234-1234-1234', password: '1234' }));
+req.end();</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Node_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="PHP" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0" style="display: block;">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper language-javascript"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PHP_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class=" is-highlighted language-javascript" id="PHP_0_11e7861e-e372-b512-5156-b1032b0dbd6f"><span class="token operator">&lt;</span><span class="token operator">?</span>php
+
+$curl <span class="token operator">=</span> <span class="token function">curl_init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">curl_setopt_array</span><span class="token punctuation">(</span>$curl<span class="token punctuation">,</span> <span class="token function">array</span><span class="token punctuation">(</span>
+  CURLOPT_URL <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">"http://snapay.com.br/payment/"</span><span class="token punctuation">,</span>
+  CURLOPT_RETURNTRANSFER <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  CURLOPT_ENCODING <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">""</span><span class="token punctuation">,</span>
+  CURLOPT_MAXREDIRS <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  CURLOPT_TIMEOUT <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">30</span><span class="token punctuation">,</span>
+  CURLOPT_HTTP_VERSION <span class="token operator">=</span><span class="token operator">&gt;</span> CURL_HTTP_VERSION_1_1<span class="token punctuation">,</span>
+  CURLOPT_CUSTOMREQUEST <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">"POST"</span><span class="token punctuation">,</span>
+  CURLOPT_POSTFIELDS <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">"{\n\t\"amount\" : 1, \n\t\"card\" : \"1234-1234-1234\", \n\t\"password\" : \"1234\"\n\t\n}"</span><span class="token punctuation">,</span>
+  CURLOPT_HTTPHEADER <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">array</span><span class="token punctuation">(</span>
+    <span class="token string">"content-type: application/json"</span>
+  <span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+$response <span class="token operator">=</span> <span class="token function">curl_exec</span><span class="token punctuation">(</span>$curl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+$err <span class="token operator">=</span> <span class="token function">curl_error</span><span class="token punctuation">(</span>$curl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">curl_close</span><span class="token punctuation">(</span>$curl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>$err<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  echo <span class="token string">"cURL Error #:"</span> <span class="token punctuation">.</span> $err<span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  echo $response<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PHP_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Go" data-id="11e7861e-e372-b512-5156-b1032b0dbd6f_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Go_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Go_0_11e7861e-e372-b512-5156-b1032b0dbd6f">package main
+
+import (
+	"fmt"
+	"strings"
+	"net/http"
+	"io/ioutil"
+)
+
+func main() {
+
+	url := "http://snapay.com.br/payment/"
+
+	payload := strings.NewReader("{\n\t\"amount\" : 1, \n\t\"card\" : \"1234-1234-1234\", \n\t\"password\" : \"1234\"\n\t\n}")
+
+	req, _ := http.NewRequest("POST", url, payload)
+
+	req.Header.Add("content-type", "application/json")
+
+	res, _ := http.DefaultClient.Do(req)
+
+	defer res.Body.Close()
+	body, _ := ioutil.ReadAll(res.Body)
+
+	fmt.Println(res)
+	fmt.Println(string(body))
+
+}</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Go_0_11e7861e-e372-b512-5156-b1032b0dbd6f" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+    </div>
+
+</div>
+</div>
+
+    <div class="row row-no-padding row-eq-height" id="c8011027-2c15-9225-4e84-5c558f780c9e">
+  <div class="col-md-6 col-xs-12 section">
+  <div class="api-information">
+    <div class="heading">
+      <div class="name">
+        <span class="GET method">GET</span>
+        Retorna Pagamentos do dia
+      </div>
+    </div>
+    <div class="url">http://snapay.com.br/payments/</div>
+    <div class="description"></div>
+
+      <div class="headers">
+        <div class="headers-heading">HEADERS</div>
+          <hr>
+          <div class="param row">
+            <div class="name col-md-3">Content-Type</div>
+            <div class="value col-md-9">application/json</div>
+          </div>
+      </div>
+
+
+  </div>
+  <br><br>
+</div>
+
+
+  <div class="col-md-6 col-xs-12 examples">
+    <div class="sample-request">
+      <div class="heading"><span>Sample Request</span></div>
+
+      <div class="responses-index">
+          <div class="response-name"><span>Retorna Pagamentos do dia</span></div>
+      </div>
+    </div>
+
+    <div class="request code-snippet">
+          <div class="formatted-requests" data-lang="cURL" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#cURL_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="cURL_0_c8011027-2c15-9225-4e84-5c558f780c9e">curl --request GET \
+  --url http://snapay.com.br/payments/ \
+  --header 'content-type: application/json'</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#cURL_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="jQuery" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#jQuery_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="jQuery_0_c8011027-2c15-9225-4e84-5c558f780c9e">var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://snapay.com.br/payments/",
+  "method": "GET",
+  "headers": {
+    "content-type": "application/json"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#jQuery_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Ruby" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Ruby_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Ruby_0_c8011027-2c15-9225-4e84-5c558f780c9e">require 'uri'
+require 'net/http'
+
+url = URI("http://snapay.com.br/payments/")
+
+http = Net::HTTP.new(url.host, url.port)
+
+request = Net::HTTP::Get.new(url)
+request["content-type"] = 'application/json'
+
+response = http.request(request)
+puts response.read_body</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Ruby_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Python Requests" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PythonRequests_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="PythonRequests_0_c8011027-2c15-9225-4e84-5c558f780c9e">import requests
+
+url = "http://snapay.com.br/payments/"
+
+headers = {'content-type': 'application/json'}
+
+response = requests.request("GET", url, headers=headers)
+
+print(response.text)</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PythonRequests_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Node" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Node_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Node_0_c8011027-2c15-9225-4e84-5c558f780c9e">var http = require("http");
+
+var options = {
+  "method": "GET",
+  "hostname": "snapay.com.br",
+  "port": null,
+  "path": "/payments/",
+  "headers": {
+    "content-type": "application/json"
+  }
+};
+
+var req = http.request(options, function (res) {
+  var chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function () {
+    var body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+});
+
+req.end();</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Node_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="PHP" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0" style="display: block;">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper is-expandable  language-javascript"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PHP_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class=" is-highlighted language-javascript" id="PHP_0_c8011027-2c15-9225-4e84-5c558f780c9e"><span class="token operator">&lt;</span><span class="token operator">?</span>php
+
+$curl <span class="token operator">=</span> <span class="token function">curl_init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">curl_setopt_array</span><span class="token punctuation">(</span>$curl<span class="token punctuation">,</span> <span class="token function">array</span><span class="token punctuation">(</span>
+  CURLOPT_URL <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">"http://snapay.com.br/payments/"</span><span class="token punctuation">,</span>
+  CURLOPT_RETURNTRANSFER <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  CURLOPT_ENCODING <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">""</span><span class="token punctuation">,</span>
+  CURLOPT_MAXREDIRS <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">10</span><span class="token punctuation">,</span>
+  CURLOPT_TIMEOUT <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token number">30</span><span class="token punctuation">,</span>
+  CURLOPT_HTTP_VERSION <span class="token operator">=</span><span class="token operator">&gt;</span> CURL_HTTP_VERSION_1_1<span class="token punctuation">,</span>
+  CURLOPT_CUSTOMREQUEST <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token string">"GET"</span><span class="token punctuation">,</span>
+  CURLOPT_HTTPHEADER <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">array</span><span class="token punctuation">(</span>
+    <span class="token string">"content-type: application/json"</span>
+  <span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+$response <span class="token operator">=</span> <span class="token function">curl_exec</span><span class="token punctuation">(</span>$curl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+$err <span class="token operator">=</span> <span class="token function">curl_error</span><span class="token punctuation">(</span>$curl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token function">curl_close</span><span class="token punctuation">(</span>$curl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span>$err<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  echo <span class="token string">"cURL Error #:"</span> <span class="token punctuation">.</span> $err<span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  echo $response<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PHP_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Go" data-id="c8011027-2c15-9225-4e84-5c558f780c9e_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Go_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Go_0_c8011027-2c15-9225-4e84-5c558f780c9e">package main
+
+import (
+	"fmt"
+	"net/http"
+	"io/ioutil"
+)
+
+func main() {
+
+	url := "http://snapay.com.br/payments/"
+
+	req, _ := http.NewRequest("GET", url, nil)
+
+	req.Header.Add("content-type", "application/json")
+
+	res, _ := http.DefaultClient.Do(req)
+
+	defer res.Body.Close()
+	body, _ := ioutil.ReadAll(res.Body)
+
+	fmt.Println(res)
+	fmt.Println(string(body))
+
+}</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Go_0_c8011027-2c15-9225-4e84-5c558f780c9e" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+    </div>
+
+</div>
+</div>
+
+    <div class="row row-no-padding row-eq-height" id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">
+  <div class="col-md-6 col-xs-12 section">
+  <div class="api-information">
+    <div class="heading">
+      <div class="name">
+        <span class="GET method">GET</span>
+        Retorna Pagamentos da semana
+      </div>
+    </div>
+    <div class="url">http://snapay.com.br/payments/?filter=week</div>
+    <div class="description"></div>
+
+      <div class="headers">
+        <div class="headers-heading">HEADERS</div>
+          <hr>
+          <div class="param row">
+            <div class="name col-md-3">Content-Type</div>
+            <div class="value col-md-9">application/json</div>
+          </div>
+      </div>
+
+
+  </div>
+  <br><br>
+</div>
+
+
+  <div class="col-md-6 col-xs-12 examples">
+    <div class="sample-request">
+      <div class="heading"><span>Sample Request</span></div>
+
+      <div class="responses-index">
+          <div class="response-name"><span>Retorna Pagamentos da semana</span></div>
+      </div>
+    </div>
+
+    <div class="request code-snippet">
+          <div class="formatted-requests" data-lang="cURL" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#cURL_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="cURL_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">curl --request GET \
+  --url 'http://snapay.com.br/payments/?filter=week' \
+  --header 'content-type: application/json'</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#cURL_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="jQuery" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#jQuery_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="jQuery_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://snapay.com.br/payments/?filter=week",
+  "method": "GET",
+  "headers": {
+    "content-type": "application/json"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#jQuery_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Ruby" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Ruby_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Ruby_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">require 'uri'
+require 'net/http'
+
+url = URI("http://snapay.com.br/payments/?filter=week")
+
+http = Net::HTTP.new(url.host, url.port)
+
+request = Net::HTTP::Get.new(url)
+request["content-type"] = 'application/json'
+
+response = http.request(request)
+puts response.read_body</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Ruby_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Python Requests" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PythonRequests_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="PythonRequests_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">import requests
+
+url = "http://snapay.com.br/payments/"
+
+querystring = {"filter":"week"}
+
+headers = {'content-type': 'application/json'}
+
+response = requests.request("GET", url, headers=headers, params=querystring)
+
+print(response.text)</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PythonRequests_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Node" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Node_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Node_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">var http = require("http");
+
+var options = {
+  "method": "GET",
+  "hostname": "snapay.com.br",
+  "port": null,
+  "path": "/payments/?filter=week",
+  "headers": {
+    "content-type": "application/json"
+  }
+};
+
+var req = http.request(options, function (res) {
+  var chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function () {
+    var body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+});
+
+req.end();</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Node_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="PHP" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0" style="display: block;">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper is-expandable"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PHP_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="PHP_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">&lt;?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL =&gt; "http://snapay.com.br/payments/?filter=week",
+  CURLOPT_RETURNTRANSFER =&gt; true,
+  CURLOPT_ENCODING =&gt; "",
+  CURLOPT_MAXREDIRS =&gt; 10,
+  CURLOPT_TIMEOUT =&gt; 30,
+  CURLOPT_HTTP_VERSION =&gt; CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST =&gt; "GET",
+  CURLOPT_HTTPHEADER =&gt; array(
+    "content-type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PHP_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Go" data-id="1cbf8e59-7fc5-9244-f085-00dd5dd4ea57_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Go_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Go_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">package main
+
+import (
+	"fmt"
+	"net/http"
+	"io/ioutil"
+)
+
+func main() {
+
+	url := "http://snapay.com.br/payments/?filter=week"
+
+	req, _ := http.NewRequest("GET", url, nil)
+
+	req.Header.Add("content-type", "application/json")
+
+	res, _ := http.DefaultClient.Do(req)
+
+	defer res.Body.Close()
+	body, _ := ioutil.ReadAll(res.Body)
+
+	fmt.Println(res)
+	fmt.Println(string(body))
+
+}</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Go_0_1cbf8e59-7fc5-9244-f085-00dd5dd4ea57" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+    </div>
+
+</div>
+</div>
+
+    <div class="row row-no-padding row-eq-height" id="1a528b71-a9d9-234c-3da7-1f219060401d">
+  <div class="col-md-6 col-xs-12 section">
+  <div class="api-information">
+    <div class="heading">
+      <div class="name">
+        <span class="GET method">GET</span>
+        Retorna Pagamentos do mês
+      </div>
+    </div>
+    <div class="url">http://snapay.com.br/payments/?filter=month</div>
+    <div class="description"></div>
+
+      <div class="headers">
+        <div class="headers-heading">HEADERS</div>
+          <hr>
+          <div class="param row">
+            <div class="name col-md-3">Content-Type</div>
+            <div class="value col-md-9">application/json</div>
+          </div>
+      </div>
+
+
+  </div>
+  <br><br>
+</div>
+
+
+  <div class="col-md-6 col-xs-12 examples">
+    <div class="sample-request">
+      <div class="heading"><span>Sample Request</span></div>
+
+      <div class="responses-index">
+          <div class="response-name"><span>Retorna Pagamentos do mês</span></div>
+      </div>
+    </div>
+
+    <div class="request code-snippet">
+          <div class="formatted-requests" data-lang="cURL" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#cURL_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="cURL_0_1a528b71-a9d9-234c-3da7-1f219060401d">curl --request GET \
+  --url 'http://snapay.com.br/payments/?filter=month' \
+  --header 'content-type: application/json'</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#cURL_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="jQuery" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#jQuery_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="jQuery_0_1a528b71-a9d9-234c-3da7-1f219060401d">var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "http://snapay.com.br/payments/?filter=month",
+  "method": "GET",
+  "headers": {
+    "content-type": "application/json"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#jQuery_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Ruby" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Ruby_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Ruby_0_1a528b71-a9d9-234c-3da7-1f219060401d">require 'uri'
+require 'net/http'
+
+url = URI("http://snapay.com.br/payments/?filter=month")
+
+http = Net::HTTP.new(url.host, url.port)
+
+request = Net::HTTP::Get.new(url)
+request["content-type"] = 'application/json'
+
+response = http.request(request)
+puts response.read_body</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Ruby_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Python Requests" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PythonRequests_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="PythonRequests_0_1a528b71-a9d9-234c-3da7-1f219060401d">import requests
+
+url = "http://snapay.com.br/payments/"
+
+querystring = {"filter":"month"}
+
+headers = {'content-type': 'application/json'}
+
+response = requests.request("GET", url, headers=headers, params=querystring)
+
+print(response.text)</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PythonRequests_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Node" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Node_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Node_0_1a528b71-a9d9-234c-3da7-1f219060401d">var http = require("http");
+
+var options = {
+  "method": "GET",
+  "hostname": "snapay.com.br",
+  "port": null,
+  "path": "/payments/?filter=month",
+  "headers": {
+    "content-type": "application/json"
+  }
+};
+
+var req = http.request(options, function (res) {
+  var chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function () {
+    var body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+});
+
+req.end();</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Node_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="PHP" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0" style="display: block;">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper is-expandable"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#PHP_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="PHP_0_1a528b71-a9d9-234c-3da7-1f219060401d">&lt;?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL =&gt; "http://snapay.com.br/payments/?filter=month",
+  CURLOPT_RETURNTRANSFER =&gt; true,
+  CURLOPT_ENCODING =&gt; "",
+  CURLOPT_MAXREDIRS =&gt; 10,
+  CURLOPT_TIMEOUT =&gt; 30,
+  CURLOPT_HTTP_VERSION =&gt; CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST =&gt; "GET",
+  CURLOPT_HTTPHEADER =&gt; array(
+    "content-type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#PHP_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+          <div class="formatted-requests" data-lang="Go" data-id="1a528b71-a9d9-234c-3da7-1f219060401d_0">
+            <pre class="click-to-expand-wrapper is-snippet-wrapper"><button class="btn btn-sm pull-right copy-request copy-request-modal" data-clipboard-target="#Go_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button><code class="language-javascript" id="Go_0_1a528b71-a9d9-234c-3da7-1f219060401d">package main
+
+import (
+	"fmt"
+	"net/http"
+	"io/ioutil"
+)
+
+func main() {
+
+	url := "http://snapay.com.br/payments/?filter=month"
+
+	req, _ := http.NewRequest("GET", url, nil)
+
+	req.Header.Add("content-type", "application/json")
+
+	res, _ := http.DefaultClient.Do(req)
+
+	defer res.Body.Close()
+	body, _ := ioutil.ReadAll(res.Body)
+
+	fmt.Println(res)
+	fmt.Println(string(body))
+
+}</code></pre>
+            <!-- Button over the expand overlay -->
+            <button class="btn btn-sm pull-right copy-request" data-clipboard-target="#Go_0_1a528b71-a9d9-234c-3da7-1f219060401d" data-before-copy="Copy to Clipboard" data-after-copy="Copied"></button>
+          </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+
+        <a href="https://www.getpostman.com/docs/creating_documentation" target="_blank" class="promo-banner is-hidden" id="live-documentation-banner">
+          <div class="container">
+            <i class="pm-generic-icon pm-icon-orange-back pm-icon-rounded pm-icon-lg pm-generic-icon-book"></i>
+            <h3>This is live documentation generated by Postman Pro</h3>
+            <span>Create your own live docs</span>
+          </div>
+        </a>
+      </div>
+      <div class="no-gutter index sidebar" style="padding-top: 41px;">
+        <div class="collection-heading">
+          <p class="heading">Snapay</p>
+        </div>
+        <ul class="nav navbar-nav" id="navbar-example">
+          <li class="request intro">
+            <a class="nav-link dropdown-item" href="#intro">
+              <div class="request-name">Introduction</div>
+            </a>
+          </li>
+          <li class="toc">
+            <ul></ul>
+          </li>
+              <li class="request">
+                <div class="POST method">
+                  <span>POST</span>
+                </div>
+                <div class="request-name" title="Cria novo Pagamento">
+                  <a class="nav-link dropdown-item active" href="#11e7861e-e372-b512-5156-b1032b0dbd6f">
+                    <span>Cria novo Pagamento</span>
+                  </a>
+                </div>
+              </li>
+              <li class="request">
+                <div class="GET method">
+                  <span>GET</span>
+                </div>
+                <div class="request-name" title="Retorna Pagamentos do dia">
+                  <a class="nav-link dropdown-item" href="#c8011027-2c15-9225-4e84-5c558f780c9e">
+                    <span>Retorna Pagamentos do dia</span>
+                  </a>
+                </div>
+              </li>
+              <li class="request">
+                <div class="GET method">
+                  <span>GET</span>
+                </div>
+                <div class="request-name" title="Retorna Pagamentos da semana">
+                  <a class="nav-link dropdown-item" href="#1cbf8e59-7fc5-9244-f085-00dd5dd4ea57">
+                    <span>Retorna Pagamentos da semana</span>
+                  </a>
+                </div>
+              </li>
+              <li class="request">
+                <div class="GET method">
+                  <span>GET</span>
+                </div>
+                <div class="request-name" title="Retorna Pagamentos do mês">
+                  <a class="nav-link dropdown-item" href="#1a528b71-a9d9-234c-3da7-1f219060401d">
+                    <span>Retorna Pagamentos do mês</span>
+                  </a>
+                </div>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="./resources/handlebars.runtime.min.js"></script>
+    <script src="./resources/templates.js"></script><script type="text/javascript" id="">(function(a,d){var b=!1,c=function(a){b||(dataLayer.push({event:"documenter_engaged"}),b=!0)};a.setTimeout(function(){a.addEventListener("click",c,!1);d.addEventListener("scroll",c,!1)},1E3)})(window,document);</script>
+    <script src="./resources/helpers.js"></script><script type="text/javascript" id="">var meta={};meta.url=google_tag_manager["GTM-M42M5N"].macro('gtm3');dataLayer.push({eventSource:"documenter",eventCategory:"documenter",eventAction:"view",eventMeta:meta});</script><script type="text/javascript" id="">(function(){var eventData,request=new XMLHttpRequest,eventAPI="https://analytics.getpostman.com/event",productionHosts=["www.getpostman.com","app.getpostman.com","echo.getpostman.com","documenter.getpostman.com","monitor.getpostman.com"],apiMethod="POST",thisEvent="documenter",thisEnv="staging",EventSource=function(property,type,indexType){return{"type":type,"property":property,"indexType":indexType}},eventSources={"website":new EventSource("website","events-website","client-events"),"god_server":new EventSource("god_server",
+"god-server","server-events"),"documenter":new EventSource("documenter","events-website","client-events"),"echo":new EventSource("echo","events-website","client-events"),"monitor":new EventSource("monitor","events-website","client-events"),"cloudapi":new EventSource("cloudapi","events-website","client-events")},populateIfDefined=function(dataKey,dataLayerValue){if(dataLayerValue&&dataLayerValue!=="undefined"){if(typeof dataLayerValue!=="boolean"&&!isNaN(Number(dataLayerValue)))dataLayerValue=Number(dataLayerValue);
+eventData[dataKey]=dataLayerValue}};if(productionHosts.indexOf("documenter.getpostman.com")>-1)thisEnv="production";thisEvent=eventSources[thisEvent];if(thisEvent){eventData={"type":thisEvent.type,"indexType":thisEvent.indexType,"env":thisEnv,"property":thisEvent.property,"timestamp":(new Date).toISOString()};populateIfDefined("category","documenter");populateIfDefined("action","view");populateIfDefined("label","undefined");populateIfDefined("value","undefined");
+populateIfDefined("meta",google_tag_manager["GTM-M42M5N"].macro('gtm4'));populateIfDefined("userId","undefined");populateIfDefined("teamId","undefined");if("undefined"==="run_in_postman")if(""&&""!=="undefined")eventData.meta={referrer:""};if(google_tag_manager["GTM-M42M5N"].macro('gtm5'))console.log("Sending LS event:",eventData);eventData=btoa(JSON.stringify(eventData));request.open(apiMethod,eventAPI,true);setTimeout(function(){request.send(eventData)},
+0);dataLayer.push({"eventCategory":"","eventAction":"","eventLabel":"","eventValue":"","eventSource":"","eventMeta":{}})}})();</script>
+    <script src="./resources/jquery.min.js"></script>
+    <script src="./resources/snap.svg-min.js"></script>
+    <script src="./resources/jquery.scrollIntoView.min.js"></script>
+    <script src="./resources/lodash.min.js"></script>
+    <script src="./resources/prism.js"></script>
+    <script src="./resources/slug.js"></script>
+    <script src="./resources/clipboard.min.js"></script>
+    <script src="./resources/tether.min.js"></script>
+    <script src="./resources/bootstrap.js"></script>
+
+    <script src="./resources/messenger.js"></script>
+
+    <script src="./resources/custom.js" id="script-data-scope" data-var-user-id="29638" data-var-team-id="" data-var-domain-url="https://domains.getpostman.com/" data-var-host=""></script>
+
+  
+
+</body></html>

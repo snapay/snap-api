@@ -8,7 +8,7 @@ date_default_timezone_set('America/Sao_Paulo');
 /* config */
 $db_host		= 'modpay.mysql.dbaas.com.br';
 $db_user		= 'modpay';
-$db_pass		= '********';
+$db_pass		= '*********';
 $db_database	= 'modpay';
 /* End config */
 

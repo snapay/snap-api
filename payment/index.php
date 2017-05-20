@@ -13,14 +13,16 @@ if ($pay->password != "1234"){
 }
 
 $aprova = rand(1, 99);
+$code = rand(11111111, 99999999);
+
 if($aprova < 80){
-	$sql = "INSERT INTO `sales` (`date`, `amount`, `id_customer`, `status`) VALUES ('$salesDate', $pay->amount, '1', 'Aprovado');";
+	$sql = "INSERT INTO `sales` (`date`, `amount`, `id_transaction`, `status`) VALUES ('$salesDate', $pay->amount, $code, 'Aprovado');";
 	$result = array("result"  => "Aprovado","nsu" => $aprova);
 	$query = mysql_query($sql);
 	echo json_encode($result);
 }
 else{
-	$sql = "INSERT INTO `sales` (`date`, `amount`, `id_customer`, `status`) VALUES ('$salesDate', $pay->amount, '1', 'Reprovado');";
+	$sql = "INSERT INTO `sales` (`date`, `amount`, `id_transaction`, `status`) VALUES ('$salesDate', $pay->amount, 0, 'Reprovado');";
 	$result = array("result"  => "Reprovado. Tente novamente.");
 	$query = mysql_query($sql);
 	echo json_encode($result);

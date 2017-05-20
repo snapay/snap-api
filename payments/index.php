@@ -3,8 +3,8 @@
 
 	$filter  = isset($_GET['filter']) ? strval($_GET['filter']) : '';
    
-        ini_set('default_charset','utf-8');
-        header('Content-Type: json/plain; > charset=utf-8');
+    ini_set('default_charset','utf-8');
+    header('Content-Type: json/plain; > charset=utf-8');
 	
 	$where = "";
 	$today = date('Y-m-d');
@@ -46,6 +46,8 @@
 
 	$items = array();
 	while($row = mysql_fetch_object($rs)){
+  
+		$row->date = date( 'd/m/Y H:i:s', strtotime($row->date));
   
 	    array_push($items, $row);
 	   
